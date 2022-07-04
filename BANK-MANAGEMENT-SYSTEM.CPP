@@ -101,7 +101,6 @@ void modify_account(int);	//function to modify record of file
 void delete_account(int);	//function to delete record of file
 void display_all();		//function to display all account details
 void deposit_withdraw(int, int); // function to desposit/withdraw amount for given account
-void intro();	//introductory screen function
 
 // MAIN FUNCTION OF PROGRAM
 
@@ -111,7 +110,6 @@ int main()
 	char ch;
 	int num;
 	clrscr();
-	intro();
 	do
 	{
 		clrscr();
